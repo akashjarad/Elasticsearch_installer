@@ -33,7 +33,14 @@ system Ubuntu
 
 ###Configuration
 
-Setup memory for ElasticSearch (there are few ways... you could also edit ~/.profile)
+Config file:
+
+```sh
+nano /etc/elasticsearch/elasticsearch.yml
+```
+
+
+Setup memory for ElasticSearch (there are few ways... you could also edit ~/.profile). For more details see commands.md
 ```sh
 sudo nano /usr/share/elasticsearch/bin/elasticsearch
 ```
