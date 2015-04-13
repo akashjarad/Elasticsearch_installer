@@ -75,8 +75,7 @@ if __name__ == '__main__':
 		if version is None:
 			version = '1.5.0'
 			version = raw_input("Version ... [{}] ".format(version)) or version
-		print version
-		# install_openjdk()
-		# install_elasticsearch(version)
-		# install_service_wrapper()
-		# test_elasticsearch()
+		install_openjdk()
+		install_elasticsearch(version)
+		install_service_wrapper()
+		test_elasticsearch()
