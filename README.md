@@ -22,8 +22,18 @@ $ python elasticsearch_installer.py --plugin elasticsearch/elasticsearch-river-r
 ```
 Access plugin (marvel):
 
-http://localhost:9200/_plugin/marvel
+[http://localhost:9200/_plugin/marvel](http://localhost:9200/_plugin/marvel)
 
 ###Python version
+
 python 2.7
+
 system Ubuntu
+
+
+###Configuration
+
+Setup memory for ElasticSearch (there are few ways... you could also edit ~/.profile)
+```sh
+sudo nano /usr/share/elasticsearch/bin/elasticsearch
+```
